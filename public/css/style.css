@@ -1,0 +1,206 @@
+body{
+    margin-top: 30px;
+    color: rgb(95, 95, 241);
+    overflow-y: scroll;
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 1px 0 1px;
+    width:460px;
+    background-color: rgb(241, 237, 237);
+    border-radius: 3px;
+}
+#new{
+    margin: 0 auto;
+    width: 420px;
+    padding: 20px 20px 10px 20px;
+    background-color: rgb(241, 237, 237);
+    border-radius: 3px;
+}
+table{
+    margin: 0 auto;
+}
+.btncss{
+    border: none ;
+    cursor: pointer;
+}/*버튼 테두리없앰+커서올리면 변화*/
+.click{
+    width: 45px;
+    height: 25px;
+    color: rgb(220, 224, 228);
+    background-color: rgb(8, 109, 104) ;
+}/*확인,취소버튼*/
+.loginbtn{
+    width: 250px;
+    height: 40px;
+    color: rgb(220, 224, 228);
+    background-color: rgb(8, 109, 104) ;
+    font-size: 15px;
+    margin: 10px 0 15px;
+}/*로그인 버튼*/
+.findbtn{
+    width: 180px;
+    height: 30px;
+    outline: 0; 
+    color: rgb(30, 31, 32);
+    border-radius: 3px 3px 0 0;
+}/*아디찾기/비번찾기버튼*/
+input,button,select,textarea{
+    border:2px solid rgb(220, 224, 228);
+    border-radius: 3px;
+}
+textarea{
+    resize: none;
+}
+.inputbox{
+    width: 200px;
+    height: 40px;
+    padding:0 15px;
+    font-size: 15px;
+}/*로그인 아이디/비번 박스*/
+.inputbox2{
+    width:195px;
+    height:20px;
+    padding:3px 10px;
+    font-size: 13px;
+}/*회원가입 박스*/
+.inputbox3{
+    width:320px;
+    height: 40px;
+    padding:0 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}/*아디/비번 찾기결과 박스*/
+.inputbox:focus,.inputbox2:focus,.inputbox3:focus{
+    outline: none ;
+    border:2px solid rgb(255, 80, 80);
+    box-shadow: 0 0 10px rgb(163, 163, 199);
+}
+.dupli{
+    width:60px;
+    height:19px;
+    border:2px solid rgb(243, 155, 155);
+    color: rgb(134, 14, 14);
+}/*중복확인 버튼*/
+a{
+    text-decoration:none;
+    color: rgb(95, 95, 241) ;
+}
+a:hover{
+    font-weight: bold;
+}
+.star{
+    font-size:xx-small;
+    color:red;
+}
+.bgimg{
+    background-image: url(/img/bgimg.jpg);
+    background-attachment: scroll;
+}
+#copybtn{
+    width:75px;
+    height:25px;
+    color: rgb(220, 224, 228);
+    background-color: rgb(8, 109, 104) ;
+}/*복사버튼*/
+.boardcate{
+    margin: 0 auto;
+    margin-right: 0;
+    background-color: rgb(215, 238, 238);
+    border-right:2px solid gray;
+    padding: 10px 40px;
+    border-radius: 3px 0 0 3px;
+}
+.postlist{
+    margin: 0 220px ;
+    background-color: rgb(241, 237, 237);
+    border-radius: 3px;
+}
+.board{
+    width:100%;
+    border-spacing: 0.8px;
+    table-layout:fixed;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+#title{
+    width:220px;
+    margin: 20px 0 ;
+}
+#maintxt{
+    width:480px;
+    height:350px;
+    font-size:20px;
+    font-weight:bold;
+}
+#maintxt:focus,#title:focus{
+    border:2px solid rgb(241, 237, 237)
+}
+#comment{
+    margin-bottom: -29px;
+    width:85%;
+    height:60px;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+#commentsubmit{
+    margin-left: -6.5px;
+    width:13.7%;
+    height:68px;
+    border-radius:  0 3px 3px 0;
+    outline: none;
+    cursor: pointer;
+}
+#reply{
+    margin-bottom: -29px;
+    width:82%;
+    height:60px;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+#replysubmit{
+    margin-left: -6.5px;
+    width:13.7%;
+    height:68px;
+    border-radius:  0 3px 3px 0;
+    outline: none;
+    cursor: pointer;
+}
+.borderbtm{
+    border-bottom:0.5px double rgb(214, 198, 198)
+}
+.postbtn{
+    width: 60px;
+    height: 35px;
+    color: rgb(220, 224, 228);
+    background-color: rgb(8, 109, 104) ;
+    cursor:pointer;
+}
+thead{
+    width: 903.2px;
+    background-color:rgb(206, 205, 230);
+    color:black;
+    text-align: center;
+}
+.author:hover{
+    font-weight: bold;
+    cursor:pointer;
+}
+.arrow_box {
+    font-size: 14px;
+	position: relative;
+	background: rgb(187, 204, 213);
+    margin: 0  auto;
+    width: 60%;
+}
+.cmntdiv{
+    overflow: visible;
+    color: black;
+}
